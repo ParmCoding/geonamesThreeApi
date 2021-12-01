@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>AJAX/PHP/CURL/JSON example</title>
+		<meta name="description" content="AJAX/PHP/CURL/JSON example">
+		<meta name="author" content="Paddy Evans">
+        <link rel="styleSheet" href="Libs/css/geostyle.css">
+
+	</head>
+
+	<body>
+
+		
+		<div id="divResults">
+			
+			<table>
+                <tr>
+                    <th>API Name</th>
+                    <th>API Descriptions</th>
+                    <th></th>
+                  </tr>
+                  <div id = "list">
+                  <tr>
+                    <td class = "api">1.Postal Code</td>
+                    <td>AdminName:<select id="adminName1">
+                        <option value="DI">Diekirch</option>
+                        <option value="TF">Troms og Finnmark</option>
+                        <option value="GS">Győr-Moson-Sopron</option>
+                        
+                    </select></td>
+                    <td class= "button"><button id="btnRun1">Submit</button></td>
+                  </tr>
+                  <tr>
+                    <td class="api">2.Children</td>
+                    <td>AdminCode:<select id="adminCode1">
+                        <option value="01">01</option>
+                        <option value="02">19</option>
+                        <option value="03">03</option>
+                        
+                    </select></td>
+                    <td class = "button"><button id="btnRun2">Submit</button></td>
+                  </tr>
+
+                  <tr>
+                    <td class="api">3.Search</td>
+                    <td>CountryCode:<select id="countryCode">
+                        <option value="GB">GB</option>
+                        <option value="CA">CA</option>
+                        <option value="ZA">ZA</option>
+                        
+                    </select></td>
+                    <td class = "button"><button id="btnRun3">Submit</button></td>
+                  </tr></div>
+               
+                  <tr>
+                    <td><h3>Postalcode Result:</h3>
+                        
+                        <ul>
+                            <h4>Longitude:</h4><li id="txtLng"></li>
+                            <h4>Latitude: </h4><li id="txtLat"></li>
+                            <h4>Place Name: </h4><li id="txtPlaceName"></li>
+                        </ul>
+                        </td>
+                    <td><h3>Children Result:</h3>
+                        <ul>
+                            <h4 >fcodeName: </h4> <li id="txtFcodeName"></li>
+                            <h4 >AdminName1: </h4><li id="txtAdminName1"></li>
+                            <h4>Country Name: </h4><li id="txtCountryName"></li>
+                    </td>
+                    <td><h3>Search Result:</h3>
+                        <ul>
+                        <h4>CountryId: </h4><li id="txtCountryId"></li>
+                        <h4>Geoname ID: </h4><li id="txtGeonameId"></li>
+                        <h4>Name: </h4><li id="txtName"></li>
+                        </ul>
+                        </td>
+                  </tr>
+                
+                
+
+
+				
+
+
+			</table>
+
+		</div>
+
+		<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>
+		<script type="application/javascript" src="libs/js/geoScript.js"></script>
+    
+	</body>
+
+</html>

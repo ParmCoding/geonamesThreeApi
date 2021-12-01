@@ -1,0 +1,52 @@
+table, th, td {
+  border: 1px solid black;
+}
+table{
+  margin-left: 25%;
+  margin-top:10%;
+  width: 50%;
+  border-collapse: collapse;
+}
+td{
+ width: 50%;
+}
+th{
+  font-size: 20px;
+  height: 70px;
+}
+
+td{
+  text-align: center;
+}
+li{
+  text-align:left;
+  list-style: none;
+}
+.api{
+text-align: left;
+}
+#list,td{
+  text-align: left;
+  margin-left: 10px;;
+}
+button{
+  color:white;
+  background-color: blue;
+}
+.button{
+  text-align: center;
+}
+ul{
+  width:200px;
+}
+h3{
+  text-align: center;
+}
+h4{
+    color:blue;
+font-style: italic;
+}
+td{
+    height:60px;
+}
+
